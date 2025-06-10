@@ -1,0 +1,23 @@
+{
+    "contacts": [
+        {
+            "id": 1,
+            "name": "Twist Price",
+            "phone": "783894217",
+            "infos": "I wanna remind you to continue to dream and dream big.",
+            "avatar": "",
+            "blocked": false,
+            "type": "contact"
+            
+        },
+        {
+            "id": 2,
+            "name": "John Doe",
+            "phone": "787770777",
+            "infos": "Discipline your self to become more valuable.",
+            "avatar": "",
+            "blocked": false,
+            "type": "contact"
+        }
+    ]
+}
