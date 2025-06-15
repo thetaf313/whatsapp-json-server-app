@@ -6,7 +6,10 @@
       "firstName": "Alice",
       "lastName": "Durand",
       "username": "alice_d",
-      "contacts": ["u2", "u3"],
+      "contacts": [
+        { "id": "u2", "name": "Moustapha" },
+        { "id": "u3", "name": "Julio perso" }
+      ],
       "blockedUsers": ["u3"],
       "archivedChats": ["c3"]
     },
@@ -16,21 +19,49 @@
       "firstName": "Moustapha",
       "lastName": "Sayande",
       "username": "Twist",
-      "contacts": ["u1", "u3"],
+      "contacts": [
+        { "id": "u1", "name": "Alice Work" },
+        { "id": "u3", "name": "Julio" }
+      ],
       "blockedUsers": [],
-      "archivedChats": ["c3"]
+      "archivedChats": []
+    },
+    {
+      "id": "u3",
+      "phone": "774596608",
+      "firstName": "Julio",
+      "lastName": "Kebe",
+      "username": "Julio",
+      "contacts": [
+        { "id": "u1", "name": "Alice perso" }
+      ],
+      "blockedUsers": [],
+      "archivedChats": []
+    },
+    {
+      "id": "u4",
+      "phone": "782326301",
+      "firstName": "Fatou",
+      "lastName": "Ndiaye",
+      "username": "fnd",
+      "contacts": [
+        { "id": "u1", "name": "Alice perso" },
+        { "id": "u2", "name": "Moustapha" }
+      ],
+      "blockedUsers": [],
+      "archivedChats": []
     }
   ],
 
   "validationCodes": [
     {
-      "phone": "+33612345678",
+      "phone": "783894217",
       "code": "123456",
       "expiresAt": "2025-06-12T12:00:00Z",
       "validated": false
     },
     {
-      "phone": "+33687654321",
+      "phone": "780110530",
       "code": "654321",
       "expiresAt": "2025-06-12T12:01:00Z",
       "validated": true
